@@ -6,7 +6,6 @@ import UserModel from "@/model/User.model";
 
 import NextAuth from "next-auth"
 import Credentials from "next-auth/providers/credentials"
-import { any, string } from "zod";
 // Your own logic for dealing with plaintext password strings; be careful!
 // import { saltAndHashPassword } from "@/utils/password"
 
