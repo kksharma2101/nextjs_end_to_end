@@ -2,7 +2,7 @@ import UserModel from "@/model/User.model";
 import dbConnect from "@/lib/dbConnect";
 import { NextRequest, NextResponse } from "next/server"
 import bcrypt from "bcryptjs"
-import { string } from "zod";
+// import { string } from "zod";
 import { sendVerificationEmail } from "@/helpers/sendVerificationEmail";
 
 
